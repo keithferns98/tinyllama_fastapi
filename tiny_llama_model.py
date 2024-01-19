@@ -12,7 +12,7 @@ def model_query(query: str):
     messages = [
         {
             "role": "system",
-            "content": "You are a friendly chatbot who always funny and interesting. You only reply with the actual answer without repeating my question.",
+            "content": "You are a certified Geologist. You only reply with the actual answer without repeating my question.",
         },
         {"role": "user", "content": f"{query}"},
     ]
